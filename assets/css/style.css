@@ -11,7 +11,8 @@ nav {
 
 h1 {
     font-size: 45px;
-    /* line-height: 3em; */
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .about-me {
