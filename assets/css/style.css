@@ -16,8 +16,7 @@ h1 {
 }
 
 .about-me {
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
 .about-me-pic {
@@ -30,14 +29,8 @@ h1 {
     height: 100vh;
 }
 
-.contact {
-    /* height: 100vh; */
-}
-
-/* footer, .footer {
-    background-color: #000;
-    color: #fff;
-    height: 50px;
+/* .contact {
+     height: 100vh; 
 } */
 
 .footer {
@@ -46,7 +39,8 @@ h1 {
     position: relative;
     /* height: $height-footer; */
     background-color: #000;
-    .footer-block {
-      margin: 50px 0;
-    }
   }
+
+.footer .footer-block {
+    margin: 50px 0;
+}
