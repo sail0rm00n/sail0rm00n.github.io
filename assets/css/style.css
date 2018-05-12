@@ -17,12 +17,13 @@ h1 {
 
 .about-me {
     height: 100vh;
-    /* background-color: #a8cecb; */
+    background-color: #a8cecb;
 }
 
 .about-me-pic {
-    height: 350px;
+    height: 250px;
     width: auto;
+    /* background-color: #de507f; */
 }
 
 .portfolio {
