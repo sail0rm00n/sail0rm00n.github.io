@@ -21,7 +21,9 @@ nav {
     /* background-color: #fff; */
     z-index: 2;
     position: fixed;
-    color: #000;
+    /* color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; */
 }
 
 nav, .nav, .a, .nav-font {
