@@ -12,8 +12,9 @@ body {
     /* position: relative; */
     background-color: #e7e1d7;
 }
-.main {
-    padding-top: 50px;
+
+.container {
+    max-width: 70%;
 }
 
 nav {
@@ -23,8 +24,10 @@ nav {
     color: #000;
 }
 
-.a {
+nav, .nav, .a, .nav-font {
     color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 #square {
@@ -34,22 +37,23 @@ nav {
 
 .pink{
     background-color: #de507f;
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     float: left;
+    top: 0;
 }
 
 .blue{
     background-color: #a8cecb;
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     float: left;
 }
 
 .yellow{
     background-color: #fcde67;
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     float: left;
 }
 
