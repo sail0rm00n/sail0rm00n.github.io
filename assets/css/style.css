@@ -10,8 +10,10 @@ font-family: 'IBM Plex Mono', monospace; */
 body {
     color: #000;
     /* position: relative; */
-    /* padding-top: 50px; */
     background-color: #e7e1d7;
+}
+.main {
+    padding-top: 50px;
 }
 
 nav {
@@ -25,15 +27,15 @@ nav {
     color: #000;
 }
 
-.square {
+#square {
     z-index: -1;
+    clear: both;
 }
 
 .pink{
     background-color: #de507f;
     height: 100px;
     width: 100px;
-    /* top: 0; */
     float: left;
 }
 
