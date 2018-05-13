@@ -1,12 +1,54 @@
+/* font-family: 'Cousine', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Crimson Text', serif;
+font-family: 'IBM Plex Mono', monospace; */
+
 body {
     color: #000;
     /* position: relative; */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     background-color: #e7e1d7;
 }
 
 nav {
-    background-color: #fff;
+    /* background-color: #fff; */
+    z-index: 2;
+    position: fixed;
+    color: #000;
+}
+
+.a {
+    color: #000;
+}
+
+.square {
+    z-index: -1;
+}
+
+.pink{
+    background-color: #de507f;
+    height: 100px;
+    width: 100px;
+    /* top: 0; */
+    float: left;
+}
+
+.blue{
+    background-color: #a8cecb;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.yellow{
+    background-color: #fcde67;
+    height: 100px;
+    width: 100px;
+    float: left;
 }
 
 h1 {
@@ -19,6 +61,10 @@ h1 {
     height: 100vh; 
 }
 
+.index-font {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
 .about-me-pic {
     height: 250px;
     width: auto;
@@ -27,6 +73,7 @@ h1 {
 
 .portfolio {
     height: 100vh;
+    background-color: #bcc3cd;
 }
 
 /* .contact {
@@ -43,4 +90,8 @@ h1 {
 
 .footer .footer-block {
     margin: 50px 0;
+}
+
+.down-arrow {
+    align-content: center; 
 }

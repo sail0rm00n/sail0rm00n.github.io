@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
 
-    <title>* Nicole Yoon *</title>
+    <title>Nicole Yoon</title>
 
     <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
@@ -18,13 +18,16 @@
         <!-- Personal CSS -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cousine|Crimson+Text|IBM+Plex+Mono:400,700|Lato|Noto+Sans|Roboto+Mono:400,500|Roboto:400,500|Source+Sans+Pro:400,600" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- NAV -->
-    <nav class="nav fixed-top container-fluid">
+    <nav class="nav">
         <a class="nav-link align" href="./index.html">nicole yoon</a>
         <ul class="nav justify-content-center">
             <!-- Projects Link -->
@@ -38,10 +41,15 @@
             </li>
         </ul>  
     </nav>
+    <div class="square">
+        <div class="pink"></div>
+        <div class="blue"></div>
+        <div class="yellow"></div>
+    </div>
 
     <div class="container" data-spy="scroll" data-target="#scrollspy" data-offset="0">
         <!-- Row 1 / ABOUT -->
-        <div class="row about-me" id="about-me">
+        <div class="row justify-content-md-center about-me" id="about-me">
             <div class="col">
                 <h1 class="text-center">Hello,</h1>
                 <h3>
@@ -49,12 +57,20 @@
                     <br>
                     My goal is to create digital products to enhance meaningful human interaction and to solve complex problems. I believe in the future of human centered design paired with ethical and beautiful code to meet modern needs.
                 </h3>
-            </div>
+            </div> <!--.col about-me-->
+            <div class="w-100"></div>
+            <div class="col-md-auto align-self-center">
+                <h3 class="text-center index-font">projects</h3>
+                <div class="row justify-content-md-center">
+                    <i class="fas fa-angle-down fa-2x down-arrow" style="color: #de507f;"></i>
+                </div> <!--.row / down arrow-->
+            </div> <!--.col-md-auto / down arrow -->
         </div> <!-- .row 1 -->
+
         <!-- Row 2 / PORTFOLIO -->
-        <div class="row portfolio" id="portfolio">
+        <div class="row portfolio">
             <div class="col-md-12">
-                <h2 class="text-center">Projects</h2>
+                <!-- <h2 class="text-center">Projects</h2> -->
                 <div class="row">
                     <!-- Card 1 -->
                     <div class="col-md-4">
