@@ -64,6 +64,10 @@ h1 {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+.blink-font {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
 
 .about-me {
     height: 100vh; 
