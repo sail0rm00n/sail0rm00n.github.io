@@ -10,7 +10,7 @@ font-family: 'IBM Plex Mono', monospace; */
 body {
     color: #000;
     /* position: relative; */
-    background-color: #e7e1d7;
+    background-color: #EBE6DF;
 }
 
 .container {
@@ -18,20 +18,20 @@ body {
 }
 
 nav {
-    /* background-color: #fff; */
     z-index: 2;
     position: fixed;
-    /* color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300; */
 }
 
 nav, .nav, .a, .nav-font {
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
+}
+.nav-link:hover {
+    color: #fff; 
+    text-decoration: line-through;
+    text-decoration-color: #105dfb;
+    text-decoration-style: wavy;
 }
 
 #square {
@@ -69,16 +69,41 @@ h1 {
     font-family: 'IBM Plex Mono', monospace;
 }
 
-.container-index {
-    padding-top: 100px;
+.index-container {
+    margin-top: 100px;
 }
 
-.container-about {
+.index-intro {
     height: 100vh; 
-    padding-top: 100px;
+    margin-top: 100px;
 }
 
-.container-contact {
+/* ABOUT PAGE */
+
+.about-container /* with .container  */ {
+    margin-top: 100px;
+}
+
+.about-header /*.row*/ {
+    margin-bottom: 20px;
+}
+
+.about-pic-col {
+    margin-right: 30px;
+}
+
+.about-pic {
+    height: 250px;
+    width: auto;
+}
+.pic1 { margin-bottom: 20px;}
+
+.about-end {
+    margin-bottom: 100px;
+}
+/* CONTACT PAGE */
+
+.contact-container {
     padding-top: 100px;
 }
 
@@ -86,15 +111,8 @@ h1 {
     font-family: 'IBM Plex Mono', monospace;
 }
 
-.about-me-pic {
-    height: 250px;
-    width: auto;
-    /* background-color: #de507f; */
-}
-
 .portfolio {
     height: 100vh;
-    background-color: #bcc3cd;
 }
 
 /* .contact {
