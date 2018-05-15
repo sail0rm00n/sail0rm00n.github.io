@@ -18,32 +18,44 @@
         <!-- Personal CSS -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cousine|Crimson+Text|IBM+Plex+Mono:400,700|Lato|Noto+Sans|Roboto+Mono:400,500|Roboto:400,500|Source+Sans+Pro:400,600" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
 </head>
 
 <body>
     <!-- NAV -->
-    <nav class="nav fixed-top container-fluid">
-        <a class="nav-link align" href="./index.html">nicole yoon</a>
-        <ul class="nav justify-content-center">
-            <!-- Projects Link -->
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a></li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-        </ul>  
-    </nav>
+    <div class="row" id="square">
+        <div class="pink"></div>
+        <div class="blue"></div>
+        <div class="yellow"></div>            
+        <!-- NAV -->
+        <nav class="nav">
+            <div class="col-sm-3 justify-content-md-center">
+                <a class="nav-link nav-font" href="./index.html">NICOLE </a>
+            </div>
+            <div class="col-sm-3 justify-content-md-center">
+                <a class="nav-link nav-font" href="./about.html">&nbsp;ABOUT</a>
+            </div>
+            <div class="col-sm-3 justify-content-md-center">
+                <a class="nav-link nav-font" href="./contact.html">&nbsp;CONTACT</a>
+            </div>
+        </nav>
+    </div>
 
-    <div class="container" data-spy="scroll" data-target="#scrollspy" data-offset="0">
+    <div class="container container-contact">
         <!-- Row 1 / ABOUT -->
         <div class="row">
             <div class="col text-center">
-                <h1 class="blink-font">Let's talk,</h1>
+                <h1 class="text-center blink-font">Let's talk<span class="blink-font animated flash infinite">!</span></h1>
                 <h5>
                     Get in touch with me <i class="far fa-smile"></i>
                     <br>

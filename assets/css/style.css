@@ -30,6 +30,8 @@ nav, .nav, .a, .nav-font {
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
 }
 
 #square {
@@ -61,16 +63,23 @@ nav, .nav, .a, .nav-font {
 
 h1 {
     font-size: 45px;
-    padding-top: 100px;
     padding-bottom: 50px;
 }
 .blink-font {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+.container-index {
+    padding-top: 100px;
+}
 
-.about-me {
+.container-about {
     height: 100vh; 
+    padding-top: 100px;
+}
+
+.container-contact {
+    padding-top: 100px;
 }
 
 .index-font {
