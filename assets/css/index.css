@@ -139,3 +139,22 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
     padding: 100px;
 }
 
+@media (max-width: 550px) {
+    .container {
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .main-left {
+        grid-row-start: 2;
+    }
+
+    .main-right {
+        grid-row: 1 / span 1;
+    }
+
+    .home-about {
+        padding: 20px;
+    }
+}
