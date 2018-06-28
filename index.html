@@ -4,174 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta charset="UTF-8">
-
-    <title>Nicole Yoon</title>
+    <title>Nicole Yoon: Home</title>
 
     <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <!-- CSS -->
-        <!-- Personal CSS -->
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cousine|Crimson+Text|IBM+Plex+Mono:400,700|Lato|Noto+Sans|Roboto+Mono:400,500|Roboto:400,500|Source+Sans+Pro:400,600" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+    
     <!-- Animate CSS -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
     integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
     crossorigin="anonymous">
-    
+
     <!-- fav icon -->
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
 </head>
-
 <body>
-    <div class="row" id="square">
-        <div class="pink"></div>
-        <div class="blue"></div>
-        <div class="yellow"></div>
-        <!-- NAV -->
-        <nav class="nav">
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./index.html">NICOLE </a></div>
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./about.html">&nbsp;ABOUT</a>
+    <div class="container">
+        <!-- MAIN LEFT -->
+        <div class="main-left">
+            <div class="item item1">#d392b5</div>
+            <div class="item item2">2</div>
+            <div class="item item3 work">
+               <ul class="parent work-links">
+                    <li>work
+                        <ul class="child">
+                            <li>
+                                <a href="./web-app.html">web apps</a>
+                            </li>
+                            <li>
+                                <a>tech writing</a>
+                            </li>
+                        </ul>
+                    </li>
+               </ul>
             </div>
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./contact.html">&nbsp;CONTACT</a>
+            <div class="item item4">4</div>
+            <div class="item item5 about">
+                <a href="./about.html">#ABOUT</a>
             </div>
-        </nav>
-    </div>
-
-    <div class="container index-container">
-        <!-- Row 1 / ABOUT -->
-        <div class="row justify-content-md-center index-intro" id="about-me">
-            <div class="col">
-                <h1 class="text-center blink-font">Hello<span class="blink-font animated flash infinite">|</span></h1>
+            <div class="item item6">6</div>
+            <div class="item item7">7</div>
+            <div class="item item8 contact">
+                <a href="./contact.html">#CONTACT</a>
+            </div>
+        </div> <!--.main-left-->
+        <!-- MAIN RIGHT -->
+        <div class="main-right">
+            <div class="home-about">
+                <h1 class="text-center blink-font">Nicole Yoon<span class="blink-font animated flash infinite">|</span></h1>
                 <h3>
-                    I'm a web developer with a strong love of UI/UX design and art.
+                    <br><br>
+                    a web developer and technical writer with a strong love of UI/UX design and art.
                     <br>
-                    My goal is to create digital products to enhance meaningful human interaction and to solve complex problems. I believe in the power of human centered design guided by ethical and beautiful code in order to meet modern users' needs.
+                    <!-- My goal is to create digital products to enhance meaningful human interaction and to solve complex problems. I believe in the power of human centered design guided by ethical and beautiful code in order to meet modern users' needs. -->
                 </h3>
-            </div> <!--.col about-me-->
-            <div class="w-100"></div>
-            <div class="col-md-auto align-self-start">
-                <h3 class="text-center index-font">projects</h3>
-                <div class="row justify-content-md-center">
-                    <i class="fas fa-angle-down fa-2x down-arrow" style="color: #de507f;"></i>
-                </div> <!--.row / down arrow-->
-            </div> <!--.col-md-auto / down arrow -->
-        </div> <!-- .row 1 -->
+            </div><!--.home-about-->
+        </div><!--.main-right-->
+    </div> <!--.container-->
 
-        <!-- Row 2 / PORTFOLIO -->
-        <div class="row portfolio">
-            <div class="col-md-12">
-                <!-- <h2 class="text-center">Projects</h2> -->
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/images/five-pm.png" alt="5 O' Clock">
-                            <div class="card-body">
-                                <h4 class="card-title">5 O' Clock DC</h4>
-                                <p class="card-text">
-                                Striving to be DC's premier happy hour app. Built with React, Express, Node, and MongoDB.</p>
-                                <p class="card-text">May 2018</p>
-                                <a href="https://github.com/aspecker/5oclock-dc" target="blank" class="card-link">
-                                    <i class="fab fa-github fa-lg" style="color:#000"></i>
-                                </a>
-                                <a href="http://med-trax.herokuapp.com/" target="blank" class="card-link">
-                                    <i class="far fa-play-circle fa-lg" style="color:#000"></i>
-                                </a>
-                            </div> <!-- .card-body  -->
-                        </div> <!-- .card 1 -->
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/images/med-trax.png" alt="Med Trax Img">
-                            <div class="card-body">
-                                <h4 class="card-title">Med Trax</h4>
-                                <p class="card-text">
-                                    Over the counter drug tracking app built with Node, Express, Handlebars, and MySQL.</p>
-                                <p class="card-text">Apr 2018</p>
-                                <a href="https://github.com/aspecker/OTC-drug-tracker" target="blank" class="card-link">
-                                    <i class="fab fa-github fa-lg" style="color:#000"></i>
-                                </a>
-                                <a href="http://med-trax.herokuapp.com/" target="blank" class="card-link">
-                                    <i class="far fa-play-circle fa-lg" style="color:#000"></i>
-                                </a>
-                            </div> <!-- .card-body  -->
-                        </div> <!-- .card 2 -->
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="./assets/images/packman.png" alt="Pack Man">
-                            <div class="card-body">
-                                <h4 class="card-title">Pack Man</h4>
-                                <p class="card-text">Designed for those who love to travel but hate to pack.</p>
-                                <p class="card-text">Feb 2018</p>
-                                <a href="https://github.com/byunwx/packman" target="blank" class="card-link">
-                                    <i class="fab fa-github fa-lg" style="color:#000"></i>
-                                </a>
-                                <a href="https://byunwx.github.io/packman/" target="blank" class="card-link">
-                                    <i class="far fa-play-circle fa-lg" style="color:#000"></i>
-                                </a>
-                            </div> <!-- .card-body  -->
-                        </div> <!-- .card -->
-                    </div>
-                </div> <!-- .row -->
-            </div> <!-- .col-med-12 -->
-        </div> <!-- .row 2 -->
-        
-        <!-- Row 3 / CONTACT -->
-        <!--
-        <div class="row contact" id="contact">
-            <div class="col-md-12">
-                <h1 class="text-center">Let's Talk</h1>
-            </div>
-        </div>  .row 3
-        -->
-    </div> <!-- .container -->
-    
-    <!-- FOOTER -->
-    <!-- <footer class="footer">
-        <div class="row justify-content-md-center">
-            <div class="col-md-auto footer-block">
-                <a href="mailto:nicoledyoon@gmail.com">
-                    <i class="fas fa-envelope fa-lg" style="color:#fff"></i>
-                </a>
-        
-                <a href="https://github.com/sail0rm00n" target="blank" class="text-center">
-                    <i class="fab fa-github fa-lg" style="color:#fff"></i>
-                </a>
-                <a href="" target="blank">
-                    <i class="fab fa-linkedin-in fa-lg" style="color:#fff"></i>
-                </a>
-            
-                <a href="https://www.instagram.com/yoonda___/" target="blank">
-                    <i class="fab fa-instagram fa-lg" style="color:#fff"></i>
-                </a>
-            </div> 
-        </div>
-    </footer>  -->
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!-- jQuery min CDN -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
-
 </html>

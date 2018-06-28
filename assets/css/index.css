@@ -1,0 +1,141 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+.main-left {
+    background-color: mistyrose;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.main-right {
+    align-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    display: grid;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+   color: white;
+}
+a:visited {
+    /* color: #555555; */
+}
+a:active {
+    color: white;
+}
+
+ul.parent > li {
+    /* background-color: black; */
+    /* color: white; */
+}
+
+ul.hover {
+    display: block!important;
+}
+
+ul.child {
+    display: none;
+    width: 100%;
+}
+
+.about:hover {
+    background-color: #a8cecb;
+    font-family: arial;
+    font-weight: 900;
+    color: white;
+}
+.work:hover {
+    background-color: #de507f;
+    font-weight: 900;
+}
+.contact:hover {
+    background-color: #E2D4B7;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 40px;
+}
+/* grid-column: span 2;
+grid-column-start: 2 / grid-column-end: 5
+grid-column: 2 / 5;
+
+grid-column: span 2 / 5 -> span 2, end at track 5
+grid-column: 1 / span 2 -> start at track 1, span 2
+grid-column: 1 / -1 -> span across entire grid, width 100%
+ */
+
+/* MAIN LEFT  */
+.item {
+    padding: 10px;
+}
+
+.item1 {
+    background-color: #d392b5;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item2 {
+    background-color: #c78256;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.item3 {
+    background-color: #6697ea;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.work {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.item4 {
+    background-color: #272f8f;
+    grid-column: 1 / span 2;
+    grid-row: span 5;
+}
+
+.item5 {
+    background-color: #f8e44e;
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.item6 {
+    background-color: #f58f46;
+    grid-column: span 2 / -1;
+    grid-row: span 3;
+}
+
+.item7 {
+    background-color: #f28ea9;
+    grid-column: 1 / span 5;
+}
+
+.item8 {
+    background-color: #607a61;
+    grid-column: span 3 / -1;
+}
+/* MAIN RIGHT */
+.home-about {
+    text-align: center;
+    /* vertical-align: center; */
+    padding: 100px;
+}
+
