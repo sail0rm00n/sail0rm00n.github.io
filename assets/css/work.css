@@ -119,3 +119,11 @@ ul.menu {
 .work-img {
     width: 100%;
 }
+
+@media (maxwidth: 550px) {
+    
+    
+    .works {
+        grid-template-columns: 1fr;
+    }
+}

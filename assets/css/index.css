@@ -11,6 +11,7 @@
     grid-template-rows: repeat(8, 1fr);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 1.2;
 }
 
 .main-right {
@@ -23,7 +24,8 @@
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
+    color: #262626;
 }
 
 a:hover {
@@ -52,17 +54,17 @@ ul.child {
 
 .about:hover {
     background-color: #a8cecb;
-    font-family: arial;
-    font-weight: 900;
+    font-weight: 700;
     color: white;
 }
 .work:hover {
     background-color: #de507f;
-    font-weight: 900;
+    font-weight: 700;
 }
 .contact:hover {
     background-color: #E2D4B7;
-    font-weight: 900;
+    font-weight: 700;
+    /* color: whitesmoke; */
 }
 
 h1 {
@@ -80,6 +82,8 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
 /* MAIN LEFT  */
 .item {
     padding: 10px;
+    font-size: .8em;
+    color: #555;
 }
 
 .item1 {
@@ -90,25 +94,25 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
 
 .item2 {
     background-color: #c78256;
-    grid-column: span 3;
-    grid-row: span 4;
+    grid-column: span 2;
+    grid-row: span 3;
 }
 
 .item3 {
     background-color: #6697ea;
-    grid-column: span 3;
-    grid-row: span 4;
+    grid-column: span 4;
+    grid-row: span 3;
 }
 
 .work {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-rows: repeat(4, 1fr); */
 }
 
 .item4 {
     background-color: #272f8f;
     grid-column: 1 / span 2;
-    grid-row: span 5;
+    grid-row: span 4;
 }
 
 .item5 {
@@ -126,11 +130,13 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
 .item7 {
     background-color: #f28ea9;
     grid-column: 1 / span 5;
+    grid-row: span 2;
 }
 
 .item8 {
     background-color: #607a61;
     grid-column: span 3 / -1;
+    grid-row: span 2;
 }
 /* MAIN RIGHT */
 .home-about {
@@ -139,7 +145,7 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
     padding: 100px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
     .container {
         display: grid;
         grid-template-rows: 200px 1fr;
@@ -152,6 +158,12 @@ grid-column: 1 / -1 -> span across entire grid, width 100%
 
     .main-right {
         grid-row: 1 / span 1;
+    }
+
+    .item {
+        padding: 5px;
+        font-size: .5em;
+        color: #555;
     }
 
     .home-about {
