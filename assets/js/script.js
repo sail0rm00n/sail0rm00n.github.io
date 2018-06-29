@@ -35,9 +35,14 @@ $(function() {
     })
 
     // hamburger icon
-    $('.icon').click(function(){
-		$(this).toggleClass('open');
-	});
+    // $('.icon').click(function(){
+	// 	$(this).toggleClass('open');
+    // });
 
+    $('#toggle').click(function() {
+        $(this).toggleClass('toggle-active');
+        $('#overlay').toggleClass('nav-active');
+    });
 });
+
 

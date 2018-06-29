@@ -17,7 +17,7 @@
     <!-- CSS -->
         <!-- Personal CSS -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+        <link rel="stylesheet" type="text/css" href="./assets/css/overlay.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cousine|Crimson+Text|IBM+Plex+Mono:400,700|Lato|Noto+Sans|Roboto+Mono:400,500|Roboto:400,500|Source+Sans+Pro:400,600" rel="stylesheet">
 
@@ -36,24 +36,24 @@
 </head>
 
 <body>
+
     <!-- NAV -->
-    <div class="row" id="square">
-        <div class="pink"></div>
-        <div class="blue"></div>
-        <div class="yellow"></div>            
-        <!-- NAV -->
-        <nav class="nav">
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./index.html">NICOLE </a>
+    <nav class="overlay" id="overlay">
+        <ul>
+        <li><a href="./index.html">home</a></li>
+        <!-- <li><a href="">writing</a></li> -->
+        <li><a href="./about.html">about</a></li>
+        <li><a href="./contact.html">contact</a></li>
+        </ul>
+    </nav>
+            
+    <div class="navbar-header">
+            <div class="toggle-button" id="toggle">
+                <span class="bar top"></span>
+                <span class="bar middle"></span>
+                <span class="bar bottom"></span>
             </div>
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./about.html">&nbsp;ABOUT</a>
-            </div>
-            <div class="col-sm-3 justify-content-md-center">
-                <a class="nav-link nav-font" href="./contact.html">&nbsp;CONTACT</a>
-            </div>
-        </nav>
-    </div>
+        </div>   
 
     <div class="container contact-container">
         <!-- Row 1 / ABOUT -->
@@ -110,6 +110,11 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
