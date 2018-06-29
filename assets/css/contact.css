@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: whitesmoke; 
+    line-height: 1.3em;
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    height: 100vh;
+}
+
+.contact {
+    justify-self: center;
+    align-self: center;
+}
+
+.fa-lg {
+    color: #de507f;
+}

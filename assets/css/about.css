@@ -1,17 +1,15 @@
 .container {
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    padding: 2%;
     background-color: whitesmoke; 
-    /* height: 100vh; */
-    /* padding-top: 3%; */
-    /* border: 5px solid orange; */
     line-height: 1.3em;
-
-    /* align-content: center; */
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
 }
 
 .main {
