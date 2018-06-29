@@ -56,14 +56,17 @@ ul.child {
     background-color: #a8cecb;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 .work:hover {
     background-color: #de507f;
     font-weight: 700;
+    cursor: pointer;
 }
 .contact:hover {
     background-color: #E2D4B7;
     font-weight: 700;
+    cursor: pointer;
     /* color: whitesmoke; */
 }
 
