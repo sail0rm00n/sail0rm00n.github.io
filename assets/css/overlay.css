@@ -1,6 +1,7 @@
 .toggle-button {
     position: fixed;
-    top: 3%;
+    /* top: 3%; */
+    /* align-self: start; */
     /* left: 10%; */
     /* padding: 9px 10px; */
     /* margin: 8px 15px 8px 0; */
@@ -46,6 +47,7 @@
 
 .overlay {
     position: fixed;
+    /* background-color: #dac8a4; */
     background-color: #d392b5;
     top: 0;
     left: 0;
@@ -74,6 +76,7 @@
     text-align: left;
     list-style: none;
     padding-left: 3%;
+    line-height: 1.5em;
 }
 .overlay ul li {
     /* display: block; */
